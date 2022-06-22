@@ -1,0 +1,934 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local UICorner = Instance.new("UICorner")
+local UICorner_2 = Instance.new("UICorner")
+local TextLabel_2 = Instance.new("TextLabel")
+local UICorner_3 = Instance.new("UICorner")
+local ScriptsButton = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local HubsButton = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local CreditsButton = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local ScriptsFrame = Instance.new("Frame")
+local UICorner_7 = Instance.new("UICorner")
+local TextLabel_3 = Instance.new("TextLabel")
+local UICorner_8 = Instance.new("UICorner")
+local MouseFling = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local nfiniteYield = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local CMDX = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local TextLabel_4 = Instance.new("TextLabel")
+local UICorner_12 = Instance.new("UICorner")
+local HubsFrame = Instance.new("Frame")
+local UICorner_13 = Instance.new("UICorner")
+local TextLabel_5 = Instance.new("TextLabel")
+local UICorner_14 = Instance.new("UICorner")
+local FatesAdmin = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
+local c00lkiddReborn = Instance.new("TextButton")
+local UICorner_16 = Instance.new("UICorner")
+local KZSHuB = Instance.new("TextButton")
+local UICorner_17 = Instance.new("UICorner")
+local MoonUiV10 = Instance.new("TextButton")
+local UICorner_18 = Instance.new("UICorner")
+local VHub = Instance.new("TextButton")
+local UICorner_19 = Instance.new("UICorner")
+local FeUtgGuiV3 = Instance.new("TextButton")
+local UICorner_20 = Instance.new("UICorner")
+local SniffHub = Instance.new("TextButton")
+local UICorner_21 = Instance.new("UICorner")
+local CumHub = Instance.new("TextButton")
+local UICorner_22 = Instance.new("UICorner")
+local FlingGui = Instance.new("TextButton")
+local UICorner_23 = Instance.new("UICorner")
+local FeTrollingGui = Instance.new("TextButton")
+local UICorner_24 = Instance.new("UICorner")
+local Page2 = Instance.new("TextButton")
+local UICorner_25 = Instance.new("UICorner")
+local HubsFramePage2 = Instance.new("Frame")
+local UICorner_26 = Instance.new("UICorner")
+local TextLabel_6 = Instance.new("TextLabel")
+local UICorner_27 = Instance.new("UICorner")
+local c00lkiddgui = Instance.new("TextButton")
+local UICorner_28 = Instance.new("UICorner")
+local c00lkiddguiv2 = Instance.new("TextButton")
+local UICorner_29 = Instance.new("UICorner")
+local FeEmoteGui = Instance.new("TextButton")
+local UICorner_30 = Instance.new("UICorner")
+local ceHub = Instance.new("TextButton")
+local UICorner_31 = Instance.new("UICorner")
+local LostPoint = Instance.new("TextButton")
+local UICorner_32 = Instance.new("UICorner")
+local AuratusX = Instance.new("TextButton")
+local UICorner_33 = Instance.new("UICorner")
+local MoonHubv13 = Instance.new("TextButton")
+local UICorner_34 = Instance.new("UICorner")
+local EzHub = Instance.new("TextButton")
+local UICorner_35 = Instance.new("UICorner")
+local HadesHub = Instance.new("TextButton")
+local UICorner_36 = Instance.new("UICorner")
+local ManaHub = Instance.new("TextButton")
+local UICorner_37 = Instance.new("UICorner")
+local Page1 = Instance.new("TextButton")
+local UICorner_38 = Instance.new("UICorner")
+local Page3 = Instance.new("TextButton")
+local UICorner_39 = Instance.new("UICorner")
+local HubsFramePage3 = Instance.new("Frame")
+local UICorner_40 = Instance.new("UICorner")
+local TextLabel_7 = Instance.new("TextLabel")
+local UICorner_41 = Instance.new("UICorner")
+local LiokHub = Instance.new("TextButton")
+local UICorner_42 = Instance.new("UICorner")
+local DomainHub = Instance.new("TextButton")
+local UICorner_43 = Instance.new("UICorner")
+local AlphaXHub = Instance.new("TextButton")
+local UICorner_44 = Instance.new("UICorner")
+local VGHub = Instance.new("TextButton")
+local UICorner_45 = Instance.new("UICorner")
+local TextLabel_8 = Instance.new("TextLabel")
+local UICorner_46 = Instance.new("UICorner")
+local Page2Geri = Instance.new("TextButton")
+local UICorner_47 = Instance.new("UICorner")
+local CreditsFrame = Instance.new("Frame")
+local UICorner_48 = Instance.new("UICorner")
+local TextLabel_9 = Instance.new("TextLabel")
+local UICorner_49 = Instance.new("UICorner")
+local TextLabel_10 = Instance.new("TextLabel")
+local UICorner_50 = Instance.new("UICorner")
+local TextLabel_11 = Instance.new("TextLabel")
+local UICorner_51 = Instance.new("UICorner")
+local TextLabel_12 = Instance.new("TextLabel")
+local UICorner_52 = Instance.new("UICorner")
+local TextLabel_13 = Instance.new("TextLabel")
+local UICorner_53 = Instance.new("UICorner")
+local HubuKapat = Instance.new("TextButton")
+local UICorner_54 = Instance.new("UICorner")
+local Frame_2 = Instance.new("Frame")
+local UICorner_55 = Instance.new("UICorner")
+local Open = Instance.new("TextButton")
+local UICorner_56 = Instance.new("UICorner")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ResetOnSpawn = false
+
+Frame.Parent = ScreenGui
+Frame.Active = true
+Frame.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+Frame.Position = UDim2.new(0.36599189, 0, 0.126878127, 0)
+Frame.Size = UDim2.new(0, 448, 0, 386)
+Frame.Draggable = true
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+TextLabel.Size = UDim2.new(0, 142, 0, 44)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "SS Hub"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 39.000
+
+UICorner.Parent = TextLabel
+
+UICorner_2.Parent = Frame
+
+TextLabel_2.Parent = Frame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(24, 24, 24)
+TextLabel_2.Position = UDim2.new(0, 0, 0.117647082, 0)
+TextLabel_2.Size = UDim2.new(0, 142, 0, 340)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = ""
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextSize = 39.000
+
+UICorner_3.Parent = TextLabel_2
+
+ScriptsButton.Name = "ScriptsButton"
+ScriptsButton.Parent = Frame
+ScriptsButton.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+ScriptsButton.Position = UDim2.new(0.0303030312, 0, 0.150979459, 0)
+ScriptsButton.Size = UDim2.new(0, 113, 0, 34)
+ScriptsButton.Font = Enum.Font.SourceSans
+ScriptsButton.Text = "Scripts"
+ScriptsButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScriptsButton.TextSize = 35.000
+
+UICorner_4.Parent = ScriptsButton
+
+HubsButton.Name = "HubsButton"
+HubsButton.Parent = Frame
+HubsButton.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+HubsButton.Position = UDim2.new(0.0303030312, 0, 0.303552121, 0)
+HubsButton.Size = UDim2.new(0, 113, 0, 34)
+HubsButton.Font = Enum.Font.SourceSans
+HubsButton.Text = "Hubs"
+HubsButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+HubsButton.TextSize = 35.000
+
+UICorner_5.Parent = HubsButton
+
+CreditsButton.Name = "CreditsButton"
+CreditsButton.Parent = Frame
+CreditsButton.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+CreditsButton.Position = UDim2.new(0.0303030312, 0, 0.453783542, 0)
+CreditsButton.Size = UDim2.new(0, 113, 0, 34)
+CreditsButton.Font = Enum.Font.SourceSans
+CreditsButton.Text = "Credits"
+CreditsButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+CreditsButton.TextSize = 35.000
+
+UICorner_6.Parent = CreditsButton
+
+ScriptsFrame.Name = "ScriptsFrame"
+ScriptsFrame.Parent = Frame
+ScriptsFrame.Active = true
+ScriptsFrame.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+ScriptsFrame.Position = UDim2.new(0.315377384, 0, 0.00259067351, 0)
+ScriptsFrame.Size = UDim2.new(0, 306, 0, 385)
+
+UICorner_7.Parent = ScriptsFrame
+
+TextLabel_3.Parent = ScriptsFrame
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+TextLabel_3.Position = UDim2.new(0.188153312, 0, 0, 0)
+TextLabel_3.Size = UDim2.new(0, 166, 0, 44)
+TextLabel_3.Font = Enum.Font.SourceSans
+TextLabel_3.Text = "SCRIPTS"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextSize = 40.000
+
+UICorner_8.Parent = TextLabel_3
+
+MouseFling.Name = "MouseFling"
+MouseFling.Parent = ScriptsFrame
+MouseFling.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+MouseFling.Position = UDim2.new(0.0418118462, 0, 0.147058859, 0)
+MouseFling.Size = UDim2.new(0, 126, 0, 31)
+MouseFling.Font = Enum.Font.SourceSans
+MouseFling.Text = "Mouse Fling"
+MouseFling.TextColor3 = Color3.fromRGB(0, 0, 0)
+MouseFling.TextSize = 25.000
+
+UICorner_9.Parent = MouseFling
+
+nfiniteYield.Name = "İnfiniteYield"
+nfiniteYield.Parent = ScriptsFrame
+nfiniteYield.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+nfiniteYield.Position = UDim2.new(0.553141654, 0, 0.145301774, 0)
+nfiniteYield.Size = UDim2.new(0, 126, 0, 31)
+nfiniteYield.Font = Enum.Font.SourceSans
+nfiniteYield.Text = "İnfinite Yield"
+nfiniteYield.TextColor3 = Color3.fromRGB(0, 0, 0)
+nfiniteYield.TextSize = 25.000
+
+UICorner_10.Parent = nfiniteYield
+
+CMDX.Name = "CMDX"
+CMDX.Parent = ScriptsFrame
+CMDX.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+CMDX.Position = UDim2.new(0.0418118536, 0, 0.281130642, 0)
+CMDX.Size = UDim2.new(0, 126, 0, 31)
+CMDX.Font = Enum.Font.SourceSans
+CMDX.Text = "CMD-X"
+CMDX.TextColor3 = Color3.fromRGB(0, 0, 0)
+CMDX.TextSize = 25.000
+
+UICorner_11.Parent = CMDX
+
+TextLabel_4.Parent = ScriptsFrame
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+TextLabel_4.Position = UDim2.new(0.00187872595, 0, 0.498701304, 0)
+TextLabel_4.Size = UDim2.new(0, 306, 0, 192)
+TextLabel_4.Font = Enum.Font.SourceSans
+TextLabel_4.Text = "Coming Soon.."
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextSize = 40.000
+
+UICorner_12.Parent = TextLabel_4
+
+HubsFrame.Name = "HubsFrame"
+HubsFrame.Parent = Frame
+HubsFrame.Active = true
+HubsFrame.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+HubsFrame.Position = UDim2.new(0.316964298, 0, 0.00259067351, 0)
+HubsFrame.Size = UDim2.new(0, 306, 0, 385)
+HubsFrame.Visible = false
+
+UICorner_13.Parent = HubsFrame
+
+TextLabel_5.Parent = HubsFrame
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+TextLabel_5.Position = UDim2.new(0.176470593, 0, 0.00259740255, 0)
+TextLabel_5.Size = UDim2.new(0, 172, 0, 45)
+TextLabel_5.Font = Enum.Font.SourceSans
+TextLabel_5.Text = "Hubs"
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.TextSize = 40.000
+
+UICorner_14.Parent = TextLabel_5
+
+FatesAdmin.Name = "FatesAdmin"
+FatesAdmin.Parent = HubsFrame
+FatesAdmin.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+FatesAdmin.Position = UDim2.new(0.055555556, 0, 0.150649354, 0)
+FatesAdmin.Size = UDim2.new(0, 130, 0, 34)
+FatesAdmin.Font = Enum.Font.SourceSans
+FatesAdmin.Text = "Fates Admin"
+FatesAdmin.TextColor3 = Color3.fromRGB(0, 0, 0)
+FatesAdmin.TextSize = 27.000
+
+UICorner_15.Parent = FatesAdmin
+
+c00lkiddReborn.Name = "c00lkiddReborn"
+c00lkiddReborn.Parent = HubsFrame
+c00lkiddReborn.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+c00lkiddReborn.Position = UDim2.new(0.529411793, 0, 0.150649354, 0)
+c00lkiddReborn.Size = UDim2.new(0, 130, 0, 34)
+c00lkiddReborn.Font = Enum.Font.SourceSans
+c00lkiddReborn.Text = "c00lkidd Reborn Gui"
+c00lkiddReborn.TextColor3 = Color3.fromRGB(0, 0, 0)
+c00lkiddReborn.TextSize = 18.000
+
+UICorner_16.Parent = c00lkiddReborn
+
+KZSHuB.Name = "KZSHuB"
+KZSHuB.Parent = HubsFrame
+KZSHuB.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+KZSHuB.Position = UDim2.new(0.055555582, 0, 0.280519485, 0)
+KZSHuB.Size = UDim2.new(0, 130, 0, 34)
+KZSHuB.Font = Enum.Font.SourceSans
+KZSHuB.Text = "KZSHuB"
+KZSHuB.TextColor3 = Color3.fromRGB(0, 0, 0)
+KZSHuB.TextSize = 29.000
+
+UICorner_17.Parent = KZSHuB
+
+MoonUiV10.Name = "MoonUiV10"
+MoonUiV10.Parent = HubsFrame
+MoonUiV10.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+MoonUiV10.Position = UDim2.new(0.529411793, 0, 0.280519485, 0)
+MoonUiV10.Size = UDim2.new(0, 130, 0, 34)
+MoonUiV10.Font = Enum.Font.SourceSans
+MoonUiV10.Text = "Moon Ui V10"
+MoonUiV10.TextColor3 = Color3.fromRGB(0, 0, 0)
+MoonUiV10.TextSize = 29.000
+
+UICorner_18.Parent = MoonUiV10
+
+VHub.Name = "VHub"
+VHub.Parent = HubsFrame
+VHub.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+VHub.Position = UDim2.new(0.055555582, 0, 0.431168854, 0)
+VHub.Size = UDim2.new(0, 130, 0, 34)
+VHub.Font = Enum.Font.SourceSans
+VHub.Text = "VHub"
+VHub.TextColor3 = Color3.fromRGB(0, 0, 0)
+VHub.TextSize = 29.000
+
+UICorner_19.Parent = VHub
+
+FeUtgGuiV3.Name = "FeUtgGuiV3"
+FeUtgGuiV3.Parent = HubsFrame
+FeUtgGuiV3.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+FeUtgGuiV3.Position = UDim2.new(0.529411793, 0, 0.431168854, 0)
+FeUtgGuiV3.Size = UDim2.new(0, 130, 0, 34)
+FeUtgGuiV3.Font = Enum.Font.SourceSans
+FeUtgGuiV3.Text = "FE Utg Gui V3"
+FeUtgGuiV3.TextColor3 = Color3.fromRGB(0, 0, 0)
+FeUtgGuiV3.TextSize = 25.000
+
+UICorner_20.Parent = FeUtgGuiV3
+
+SniffHub.Name = "SniffHub"
+SniffHub.Parent = HubsFrame
+SniffHub.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+SniffHub.Position = UDim2.new(0.055555582, 0, 0.587013006, 0)
+SniffHub.Size = UDim2.new(0, 130, 0, 34)
+SniffHub.Font = Enum.Font.SourceSans
+SniffHub.Text = "Sniff Hub"
+SniffHub.TextColor3 = Color3.fromRGB(0, 0, 0)
+SniffHub.TextSize = 25.000
+
+UICorner_21.Parent = SniffHub
+
+CumHub.Name = "CumHub"
+CumHub.Parent = HubsFrame
+CumHub.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+CumHub.Position = UDim2.new(0.529411793, 0, 0.587013006, 0)
+CumHub.Size = UDim2.new(0, 130, 0, 34)
+CumHub.Font = Enum.Font.SourceSans
+CumHub.Text = "Cum Hub"
+CumHub.TextColor3 = Color3.fromRGB(0, 0, 0)
+CumHub.TextSize = 25.000
+
+UICorner_22.Parent = CumHub
+
+FlingGui.Name = "FlingGui"
+FlingGui.Parent = HubsFrame
+FlingGui.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+FlingGui.Position = UDim2.new(0.055555582, 0, 0.742857158, 0)
+FlingGui.Size = UDim2.new(0, 130, 0, 34)
+FlingGui.Font = Enum.Font.SourceSans
+FlingGui.Text = "FlingGui"
+FlingGui.TextColor3 = Color3.fromRGB(0, 0, 0)
+FlingGui.TextSize = 25.000
+
+UICorner_23.Parent = FlingGui
+
+FeTrollingGui.Name = "FeTrollingGui"
+FeTrollingGui.Parent = HubsFrame
+FeTrollingGui.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+FeTrollingGui.Position = UDim2.new(0.529411793, 0, 0.742857158, 0)
+FeTrollingGui.Size = UDim2.new(0, 130, 0, 34)
+FeTrollingGui.Font = Enum.Font.SourceSans
+FeTrollingGui.Text = "FE Trolling Gui"
+FeTrollingGui.TextColor3 = Color3.fromRGB(0, 0, 0)
+FeTrollingGui.TextSize = 25.000
+
+UICorner_24.Parent = FeTrollingGui
+
+Page2.Name = "Page2"
+Page2.Parent = HubsFrame
+Page2.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
+Page2.Position = UDim2.new(0.506535947, 0, 0.903896093, 0)
+Page2.Size = UDim2.new(0, 151, 0, 37)
+Page2.Font = Enum.Font.SourceSans
+Page2.Text = "Page 2"
+Page2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Page2.TextSize = 30.000
+
+UICorner_25.Parent = Page2
+
+HubsFramePage2.Name = "HubsFramePage2"
+HubsFramePage2.Parent = Frame
+HubsFramePage2.Active = true
+HubsFramePage2.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+HubsFramePage2.Position = UDim2.new(0.316964298, 0, 0, 0)
+HubsFramePage2.Size = UDim2.new(0, 306, 0, 386)
+HubsFramePage2.Visible = false
+
+UICorner_26.Parent = HubsFramePage2
+
+TextLabel_6.Parent = HubsFramePage2
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+TextLabel_6.Position = UDim2.new(0.196078435, 0, 0, 0)
+TextLabel_6.Size = UDim2.new(0, 167, 0, 44)
+TextLabel_6.Font = Enum.Font.SourceSans
+TextLabel_6.Text = "Page 2"
+TextLabel_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.TextSize = 30.000
+
+UICorner_27.Parent = TextLabel_6
+
+c00lkiddgui.Name = "c00lkiddgui"
+c00lkiddgui.Parent = HubsFramePage2
+c00lkiddgui.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+c00lkiddgui.Position = UDim2.new(0.0522875823, 0, 0.150259063, 0)
+c00lkiddgui.Size = UDim2.new(0, 117, 0, 34)
+c00lkiddgui.Font = Enum.Font.SourceSans
+c00lkiddgui.Text = "c00lkidd Gui"
+c00lkiddgui.TextColor3 = Color3.fromRGB(0, 0, 0)
+c00lkiddgui.TextSize = 25.000
+
+UICorner_28.Parent = c00lkiddgui
+
+c00lkiddguiv2.Name = "c00lkiddguiv2"
+c00lkiddguiv2.Parent = HubsFramePage2
+c00lkiddguiv2.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+c00lkiddguiv2.Position = UDim2.new(0.526143789, 0, 0.150259063, 0)
+c00lkiddguiv2.Size = UDim2.new(0, 117, 0, 34)
+c00lkiddguiv2.Font = Enum.Font.SourceSans
+c00lkiddguiv2.Text = "c00lkidd Gui V2"
+c00lkiddguiv2.TextColor3 = Color3.fromRGB(0, 0, 0)
+c00lkiddguiv2.TextSize = 21.000
+
+UICorner_29.Parent = c00lkiddguiv2
+
+FeEmoteGui.Name = "FeEmoteGui"
+FeEmoteGui.Parent = HubsFramePage2
+FeEmoteGui.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+FeEmoteGui.Position = UDim2.new(0.0522875786, 0, 0.284974098, 0)
+FeEmoteGui.Size = UDim2.new(0, 117, 0, 34)
+FeEmoteGui.Font = Enum.Font.SourceSans
+FeEmoteGui.Text = "Fe Emote Gui"
+FeEmoteGui.TextColor3 = Color3.fromRGB(0, 0, 0)
+FeEmoteGui.TextSize = 21.000
+
+UICorner_30.Parent = FeEmoteGui
+
+ceHub.Name = "İceHub"
+ceHub.Parent = HubsFramePage2
+ceHub.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+ceHub.Position = UDim2.new(0.526143789, 0, 0.284974098, 0)
+ceHub.Size = UDim2.new(0, 117, 0, 34)
+ceHub.Font = Enum.Font.SourceSans
+ceHub.Text = "İce Hub"
+ceHub.TextColor3 = Color3.fromRGB(0, 0, 0)
+ceHub.TextSize = 21.000
+
+UICorner_31.Parent = ceHub
+
+LostPoint.Name = "LostPoint"
+LostPoint.Parent = HubsFramePage2
+LostPoint.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+LostPoint.Position = UDim2.new(0.0522875786, 0, 0.422279805, 0)
+LostPoint.Size = UDim2.new(0, 117, 0, 34)
+LostPoint.Font = Enum.Font.SourceSans
+LostPoint.Text = "LostPoint"
+LostPoint.TextColor3 = Color3.fromRGB(0, 0, 0)
+LostPoint.TextSize = 21.000
+
+UICorner_32.Parent = LostPoint
+
+AuratusX.Name = "AuratusX"
+AuratusX.Parent = HubsFramePage2
+AuratusX.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+AuratusX.Position = UDim2.new(0.526143789, 0, 0.422279805, 0)
+AuratusX.Size = UDim2.new(0, 117, 0, 34)
+AuratusX.Font = Enum.Font.SourceSans
+AuratusX.Text = "Auratus X"
+AuratusX.TextColor3 = Color3.fromRGB(0, 0, 0)
+AuratusX.TextSize = 21.000
+
+UICorner_33.Parent = AuratusX
+
+MoonHubv13.Name = "MoonHubv13"
+MoonHubv13.Parent = HubsFramePage2
+MoonHubv13.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+MoonHubv13.Position = UDim2.new(0.0522875786, 0, 0.572538853, 0)
+MoonHubv13.Size = UDim2.new(0, 117, 0, 34)
+MoonHubv13.Font = Enum.Font.SourceSans
+MoonHubv13.Text = "Moon Hub v1.3"
+MoonHubv13.TextColor3 = Color3.fromRGB(0, 0, 0)
+MoonHubv13.TextSize = 21.000
+
+UICorner_34.Parent = MoonHubv13
+
+EzHub.Name = "EzHub"
+EzHub.Parent = HubsFramePage2
+EzHub.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+EzHub.Position = UDim2.new(0.526143789, 0, 0.572538853, 0)
+EzHub.Size = UDim2.new(0, 117, 0, 34)
+EzHub.Font = Enum.Font.SourceSans
+EzHub.Text = "EZ Hub"
+EzHub.TextColor3 = Color3.fromRGB(0, 0, 0)
+EzHub.TextSize = 21.000
+
+UICorner_35.Parent = EzHub
+
+HadesHub.Name = "HadesHub"
+HadesHub.Parent = HubsFramePage2
+HadesHub.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+HadesHub.Position = UDim2.new(0.0522875786, 0, 0.727979302, 0)
+HadesHub.Size = UDim2.new(0, 117, 0, 34)
+HadesHub.Font = Enum.Font.SourceSans
+HadesHub.Text = "Hades Hub"
+HadesHub.TextColor3 = Color3.fromRGB(0, 0, 0)
+HadesHub.TextSize = 21.000
+
+UICorner_36.Parent = HadesHub
+
+ManaHub.Name = "ManaHub"
+ManaHub.Parent = HubsFramePage2
+ManaHub.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+ManaHub.Position = UDim2.new(0.526143789, 0, 0.727979302, 0)
+ManaHub.Size = UDim2.new(0, 117, 0, 34)
+ManaHub.Font = Enum.Font.SourceSans
+ManaHub.Text = "Mana Hub"
+ManaHub.TextColor3 = Color3.fromRGB(0, 0, 0)
+ManaHub.TextSize = 21.000
+
+UICorner_37.Parent = ManaHub
+
+Page1.Name = "Page1"
+Page1.Parent = HubsFramePage2
+Page1.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
+Page1.Position = UDim2.new(0, 0, 0.904145062, 0)
+Page1.Size = UDim2.new(0, 112, 0, 37)
+Page1.Font = Enum.Font.SourceSans
+Page1.Text = "Page 1"
+Page1.TextColor3 = Color3.fromRGB(255, 255, 255)
+Page1.TextSize = 30.000
+
+UICorner_38.Parent = Page1
+
+Page3.Name = "Page3"
+Page3.Parent = HubsFramePage2
+Page3.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
+Page3.Position = UDim2.new(0.63398695, 0, 0.901554406, 0)
+Page3.Size = UDim2.new(0, 112, 0, 37)
+Page3.Font = Enum.Font.SourceSans
+Page3.Text = "Page 3"
+Page3.TextColor3 = Color3.fromRGB(255, 255, 255)
+Page3.TextSize = 30.000
+
+UICorner_39.Parent = Page3
+
+HubsFramePage3.Name = "HubsFramePage3"
+HubsFramePage3.Parent = Frame
+HubsFramePage3.Active = true
+HubsFramePage3.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+HubsFramePage3.Position = UDim2.new(0.316964298, 0, 0, 0)
+HubsFramePage3.Size = UDim2.new(0, 306, 0, 386)
+HubsFramePage3.Visible = false
+
+UICorner_40.Parent = HubsFramePage3
+
+TextLabel_7.Parent = HubsFramePage3
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+TextLabel_7.Position = UDim2.new(0.254901975, 0, 0.00259067351, 0)
+TextLabel_7.Size = UDim2.new(0, 150, 0, 43)
+TextLabel_7.Font = Enum.Font.SourceSans
+TextLabel_7.Text = "Page 3"
+TextLabel_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.TextSize = 40.000
+
+UICorner_41.Parent = TextLabel_7
+
+LiokHub.Name = "LiokHub"
+LiokHub.Parent = HubsFramePage3
+LiokHub.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+LiokHub.Position = UDim2.new(0.0835808814, 0, 0.150259078, 0)
+LiokHub.Size = UDim2.new(0, 112, 0, 34)
+LiokHub.Font = Enum.Font.SourceSans
+LiokHub.Text = "Liok Hub"
+LiokHub.TextColor3 = Color3.fromRGB(0, 0, 0)
+LiokHub.TextSize = 30.000
+
+UICorner_42.Parent = LiokHub
+
+DomainHub.Name = "DomainHub"
+DomainHub.Parent = HubsFramePage3
+DomainHub.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+DomainHub.Position = UDim2.new(0.557437062, 0, 0.150259078, 0)
+DomainHub.Size = UDim2.new(0, 112, 0, 34)
+DomainHub.Font = Enum.Font.SourceSans
+DomainHub.Text = "Domain Hub"
+DomainHub.TextColor3 = Color3.fromRGB(0, 0, 0)
+DomainHub.TextSize = 25.000
+
+UICorner_43.Parent = DomainHub
+
+AlphaXHub.Name = "AlphaXHub"
+AlphaXHub.Parent = HubsFramePage3
+AlphaXHub.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+AlphaXHub.Position = UDim2.new(0.0835808516, 0, 0.303108811, 0)
+AlphaXHub.Size = UDim2.new(0, 112, 0, 34)
+AlphaXHub.Font = Enum.Font.SourceSans
+AlphaXHub.Text = "Alpha X Hub"
+AlphaXHub.TextColor3 = Color3.fromRGB(0, 0, 0)
+AlphaXHub.TextSize = 25.000
+
+UICorner_44.Parent = AlphaXHub
+
+VGHub.Name = "VGHub"
+VGHub.Parent = HubsFramePage3
+VGHub.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+VGHub.Position = UDim2.new(0.557437062, 0, 0.303108811, 0)
+VGHub.Size = UDim2.new(0, 112, 0, 34)
+VGHub.Font = Enum.Font.SourceSans
+VGHub.Text = "VG Hub"
+VGHub.TextColor3 = Color3.fromRGB(0, 0, 0)
+VGHub.TextSize = 25.000
+
+UICorner_45.Parent = VGHub
+
+TextLabel_8.Parent = HubsFramePage3
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+TextLabel_8.Position = UDim2.new(0, 0, 0.435233146, 0)
+TextLabel_8.Size = UDim2.new(0, 306, 0, 217)
+TextLabel_8.Font = Enum.Font.SourceSans
+TextLabel_8.Text = "Coming Soon.."
+TextLabel_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.TextSize = 60.000
+
+UICorner_46.Parent = TextLabel_8
+
+Page2Geri.Name = "Page2Geri"
+Page2Geri.Parent = HubsFramePage3
+Page2Geri.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
+Page2Geri.Position = UDim2.new(0, 0, 0.87823832, 0)
+Page2Geri.Size = UDim2.new(0, 129, 0, 46)
+Page2Geri.Font = Enum.Font.SourceSans
+Page2Geri.Text = "Page 2"
+Page2Geri.TextColor3 = Color3.fromRGB(255, 255, 255)
+Page2Geri.TextSize = 30.000
+
+UICorner_47.Parent = Page2Geri
+
+CreditsFrame.Name = "CreditsFrame"
+CreditsFrame.Parent = Frame
+CreditsFrame.Active = true
+CreditsFrame.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+CreditsFrame.Position = UDim2.new(0.316964298, 0, 0.00259067351, 0)
+CreditsFrame.Size = UDim2.new(0, 306, 0, 385)
+CreditsFrame.Visible = false
+
+UICorner_48.Parent = CreditsFrame
+
+TextLabel_9.Parent = CreditsFrame
+TextLabel_9.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+TextLabel_9.Position = UDim2.new(0.215686291, 0, 0, 0)
+TextLabel_9.Size = UDim2.new(0, 157, 0, 44)
+TextLabel_9.Font = Enum.Font.SourceSans
+TextLabel_9.Text = "CREDITS"
+TextLabel_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.TextSize = 30.000
+
+UICorner_49.Parent = TextLabel_9
+
+TextLabel_10.Parent = CreditsFrame
+TextLabel_10.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+TextLabel_10.Position = UDim2.new(0, 0, 0.148051947, 0)
+TextLabel_10.Size = UDim2.new(0, 306, 0, 72)
+TextLabel_10.Font = Enum.Font.SourceSans
+TextLabel_10.Text = "Hub By sedatrek"
+TextLabel_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.TextSize = 40.000
+
+UICorner_50.Parent = TextLabel_10
+
+TextLabel_11.Parent = CreditsFrame
+TextLabel_11.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+TextLabel_11.Position = UDim2.new(0, 0, 0.402597398, 0)
+TextLabel_11.Size = UDim2.new(0, 306, 0, 72)
+TextLabel_11.Font = Enum.Font.SourceSans
+TextLabel_11.Text = "sedat#3034"
+TextLabel_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.TextSize = 40.000
+
+UICorner_51.Parent = TextLabel_11
+
+TextLabel_12.Parent = CreditsFrame
+TextLabel_12.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+TextLabel_12.Position = UDim2.new(0, 0, 0.698701262, 0)
+TextLabel_12.Size = UDim2.new(0, 306, 0, 72)
+TextLabel_12.Font = Enum.Font.SourceSans
+TextLabel_12.Text = "https://discord.gg/wwxGmJbyDy"
+TextLabel_12.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.TextSize = 25.000
+
+UICorner_52.Parent = TextLabel_12
+
+TextLabel_13.Parent = CreditsFrame
+TextLabel_13.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+TextLabel_13.Position = UDim2.new(0, 0, 0.641558409, 0)
+TextLabel_13.Size = UDim2.new(0, 306, 0, 40)
+TextLabel_13.Font = Enum.Font.SourceSans
+TextLabel_13.Text = "My Discord Here:"
+TextLabel_13.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_13.TextSize = 40.000
+
+UICorner_53.Parent = TextLabel_13
+
+HubuKapat.Name = "HubuKapat"
+HubuKapat.Parent = Frame
+HubuKapat.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+HubuKapat.Position = UDim2.new(0.935267866, 0, -0.0362694301, 0)
+HubuKapat.Size = UDim2.new(0, 51, 0, 44)
+HubuKapat.Font = Enum.Font.SourceSans
+HubuKapat.Text = "X"
+HubuKapat.TextColor3 = Color3.fromRGB(0, 0, 0)
+HubuKapat.TextSize = 40.000
+
+UICorner_54.Parent = HubuKapat
+
+Frame_2.Parent = ScreenGui
+Frame_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_2.Position = UDim2.new(0, 0, 0.449081808, 0)
+Frame_2.Size = UDim2.new(0, 100, 0, 36)
+Frame_2.Active = true
+
+UICorner_55.Parent = Frame_2
+
+Open.Name = "Open"
+Open.Parent = Frame_2
+Open.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+Open.Size = UDim2.new(0, 100, 0, 36)
+Open.Font = Enum.Font.SourceSans
+Open.Text = "Open"
+Open.TextColor3 = Color3.fromRGB(255, 255, 255)
+Open.TextSize = 30.000
+
+UICorner_56.Parent = Open
+
+Open.MouseButton1Click:Connect(function()
+	Frame.Visible = true
+end)
+
+HubuKapat.MouseButton1Click:Connect(function()
+	Frame.Visible = false
+end)
+
+ScriptsButton.MouseButton1Click:Connect(function()
+	ScriptsFrame.Visible = true
+	HubsFrame.Visible = false
+	HubsFramePage2.Visible = false
+	HubsFramePage3.Visible = false
+	CreditsFrame.Visible = false
+end)
+
+HubsButton.MouseButton1Click:Connect(function()
+	ScriptsFrame.Visible = false
+	HubsFrame.Visible = true
+	HubsFramePage2.Visible = false
+	HubsFramePage3.Visible = false
+	CreditsFrame.Visible = false
+end)
+
+Page2.MouseButton1Click:Connect(function()
+	ScriptsFrame.Visible = false
+	HubsFrame.Visible = false
+	HubsFramePage2.Visible = true
+	HubsFramePage3.Visible = false
+	CreditsFrame.Visible = false
+end)
+
+Page3.MouseButton1Click:Connect(function()
+	ScriptsFrame.Visible = false
+	HubsFrame.Visible = false
+	HubsFramePage2.Visible = false
+	HubsFramePage3.Visible = true
+	CreditsFrame.Visible = false
+end)
+
+Page2Geri.MouseButton1Click:Connect(function()
+	ScriptsFrame.Visible = false
+	HubsFrame.Visible = false
+	HubsFramePage2.Visible = true
+	HubsFramePage3.Visible = false
+	CreditsFrame.Visible = false
+end)
+
+Page1.MouseButton1Click:Connect(function()
+	ScriptsFrame.Visible = false
+	HubsFrame.Visible = true
+	HubsFramePage2.Visible = false
+	HubsFramePage3.Visible = false
+	CreditsFrame.Visible = false
+end)
+
+CreditsButton.MouseButton1Click:Connect(function()
+	ScriptsFrame.Visible = false
+	HubsFrame.Visible = false
+	HubsFramePage2.Visible = false
+	HubsFramePage3.Visible = false
+	CreditsFrame.Visible = true
+end)
+
+CMDX.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source",true))()
+end)
+
+MouseFling.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/Azetax/script-for-roblox/main/OP'),true))()
+end)
+
+nfiniteYield.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+CumHub.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://git.io/JsdaQ"))()
+end)
+
+FatesAdmin.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))()
+end)
+
+FeTrollingGui.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/wDh1eTdX"))()
+end)
+
+FeUtgGuiV3.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Blukez/Scripts/main/UTG%20V3%20RAW"))()
+end)
+
+FlingGui.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet('https://pastebin.com/raw/r97d7dS0', true))()
+end)
+
+KZSHuB.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/qx1MRVYV"))()
+end)
+
+MoonUiV10.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/IlikeyocutgHAH12/MoonUI-v10-/main/MoonUI%20v10'))()
+end)
+
+SniffHub.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/2dgeneralspam1/Sniff-Hub/main/Sniff%20Hub'))()
+end)
+
+VHub.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/itsyaboivincentt5315/script/main/VHub.txt'),true))()
+end)
+
+c00lkiddReborn.MouseButton1Click:Connect(function()
+	loadstring(game:GetObjects("rbxassetid://8127297852")[1].Source)()
+end)
+
+AuratusX.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/RealMrQuacks/AuratusX/master/Load"))()
+end)
+
+EzHub.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/debug420/Ez-Industries-Launcher-Data/master/Launcher.lua'),true))()
+end)
+
+FeEmoteGui.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/DjsEQMxQ"))()
+end)
+
+HadesHub.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet(("https://raw.githubusercontent.com/Soffware/3kTMd/main/HadesHub.lua"),true))()
+end)
+
+LostPoint.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/JunglePush/LostPoint/main/LostPointScript"))()
+end)
+
+ManaHub.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Mana42138/Manahub-Script-Hyper-804-was-here.lua/main/Hyper-is-still-here.lua"))()
+end)
+
+MoonHubv13.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/LwQkm563"))()
+end)
+
+c00lkiddgui.MouseButton1Click:Connect(function()
+	loadstring(game:GetObjects("rbxassetid://8127297852")[1].Source)()
+end)
+
+c00lkiddguiv2.MouseButton1Click:Connect(function()
+	loadstring(game:GetObjects("rbxassetid://9827584846")[1].Source)()
+end)
+
+ceHub.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/blxtok/CursedHub/main/loader.lua"))()
+end)
+
+AlphaXHub.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://www.logixism.tech/AlphaX/loader.lua", true))()
+end)
+
+DomainHub.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet('https://shlex.dev/release/domainx/latest.lua',true))()
+end)
+
+LiokHub.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/LioK251/Scripts/main/liokhub.lua"))()
+end)
+
+VGHub.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+end)
