@@ -1,6 +1,7 @@
---made by sedatrek
+--instant frame
+--no ll
 
---prp
+--gui by sedatrek
 
 local ScreenGui = Instance.new("ScreenGui")
 local RealFrame = Instance.new("Frame")
@@ -32,33 +33,33 @@ local MM2Execute = Instance.new("TextButton")
 local TextLabel_4 = Instance.new("TextLabel")
 local TextLabel_5 = Instance.new("TextLabel")
 local TextLabel_6 = Instance.new("TextLabel")
-local GuiAndHubsFrame = Instance.new("Frame")
+local SkyWarsScriptSelcetorFrame = Instance.new("Frame")
 local UICorner_11 = Instance.new("UICorner")
-local EnergizeGui = Instance.new("TextButton")
-local UICorner_12 = Instance.new("UICorner")
-local C00lkiddGui = Instance.new("TextButton")
-local UICorner_13 = Instance.new("UICorner")
-local OPFinality = Instance.new("TextButton")
-local UICorner_14 = Instance.new("UICorner")
-local CobraKaiGui = Instance.new("TextButton")
-local UICorner_15 = Instance.new("UICorner")
-local SynapseXGui = Instance.new("TextButton")
-local UICorner_16 = Instance.new("UICorner")
-local infiniteYield = Instance.new("TextButton")
-local UICorner_17 = Instance.new("UICorner")
 local TextLabel_7 = Instance.new("TextLabel")
+local UICorner_12 = Instance.new("UICorner")
+local SkyWarsScript1 = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local SkyWarsScript2 = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+local SkyWarsScript3 = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
+local SkyWarsCloseButton = Instance.new("TextButton")
+local UICorner_16 = Instance.new("UICorner")
+local MM2ScriptSelectorFrame = Instance.new("Frame")
+local UICorner_17 = Instance.new("UICorner")
+local MM2Script1 = Instance.new("TextButton")
 local UICorner_18 = Instance.new("UICorner")
-local CreditsFrame = Instance.new("Frame")
+local MM2Script2 = Instance.new("TextButton")
 local UICorner_19 = Instance.new("UICorner")
-local TextLabel_8 = Instance.new("TextLabel")
+local MM2Script3 = Instance.new("TextButton")
 local UICorner_20 = Instance.new("UICorner")
-local TextLabel_9 = Instance.new("TextLabel")
+local TextLabel_8 = Instance.new("TextLabel")
 local UICorner_21 = Instance.new("UICorner")
-local OpenButton = Instance.new("TextButton")
+local MM2CloseButton = Instance.new("TextButton")
 local UICorner_22 = Instance.new("UICorner")
 local HorrificHousingScriptSelectorFrame = Instance.new("Frame")
 local UICorner_23 = Instance.new("UICorner")
-local TextLabel_10 = Instance.new("TextLabel")
+local TextLabel_9 = Instance.new("TextLabel")
 local UICorner_24 = Instance.new("UICorner")
 local HorrificScript1 = Instance.new("TextButton")
 local UICorner_25 = Instance.new("UICorner")
@@ -68,29 +69,29 @@ local HorrificScript3 = Instance.new("TextButton")
 local UICorner_27 = Instance.new("UICorner")
 local HorrificHousingCloseButton = Instance.new("TextButton")
 local UICorner_28 = Instance.new("UICorner")
-local MM2ScriptSelectorFrame = Instance.new("Frame")
+local GuiAndHubsFrame = Instance.new("Frame")
 local UICorner_29 = Instance.new("UICorner")
-local MM2Script1 = Instance.new("TextButton")
+local EnergizeGui = Instance.new("TextButton")
 local UICorner_30 = Instance.new("UICorner")
-local MM2Script2 = Instance.new("TextButton")
+local C00lkiddGui = Instance.new("TextButton")
 local UICorner_31 = Instance.new("UICorner")
-local MM2Script3 = Instance.new("TextButton")
+local OPFinality = Instance.new("TextButton")
 local UICorner_32 = Instance.new("UICorner")
-local TextLabel_11 = Instance.new("TextLabel")
+local CobraKaiGui = Instance.new("TextButton")
 local UICorner_33 = Instance.new("UICorner")
-local MM2CloseButton = Instance.new("TextButton")
+local SynapseXGui = Instance.new("TextButton")
 local UICorner_34 = Instance.new("UICorner")
-local SkyWarsScriptSelcetorFrame = Instance.new("Frame")
+local infiniteYield = Instance.new("TextButton")
 local UICorner_35 = Instance.new("UICorner")
-local TextLabel_12 = Instance.new("TextLabel")
+local TextLabel_10 = Instance.new("TextLabel")
 local UICorner_36 = Instance.new("UICorner")
-local SkyWarsScript1 = Instance.new("TextButton")
+local CreditsFrame = Instance.new("Frame")
 local UICorner_37 = Instance.new("UICorner")
-local SkyWarsScript2 = Instance.new("TextButton")
+local TextLabel_11 = Instance.new("TextLabel")
 local UICorner_38 = Instance.new("UICorner")
-local SkyWarsScript3 = Instance.new("TextButton")
+local TextLabel_12 = Instance.new("TextLabel")
 local UICorner_39 = Instance.new("UICorner")
-local SkyWarsCloseButton = Instance.new("TextButton")
+local OpenButton = Instance.new("TextButton")
 local UICorner_40 = Instance.new("UICorner")
 
 --Properties:
@@ -104,7 +105,6 @@ RealFrame.Active = true
 RealFrame.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
 RealFrame.Position = UDim2.new(0.351447105, 0, 0.132472843, 0)
 RealFrame.Size = UDim2.new(0, 564, 0, 432)
-RealFrame.Visible = false
 RealFrame.Draggable = true
 
 UICorner.Parent = RealFrame
@@ -281,143 +281,144 @@ TextLabel_6.Text = "SkyWars"
 TextLabel_6.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel_6.TextSize = 14.000
 
-GuiAndHubsFrame.Name = "GuiAndHubsFrame"
-GuiAndHubsFrame.Parent = RealFrame
-GuiAndHubsFrame.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
-GuiAndHubsFrame.Position = UDim2.new(0.292421222, 0, 0.133605093, 0)
-GuiAndHubsFrame.Size = UDim2.new(0, 399, 0, 370)
-GuiAndHubsFrame.Visible = false
+SkyWarsScriptSelcetorFrame.Name = "SkyWarsScriptSelcetorFrame"
+SkyWarsScriptSelcetorFrame.Parent = GamesFrame
+SkyWarsScriptSelcetorFrame.Active = true
+SkyWarsScriptSelcetorFrame.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+SkyWarsScriptSelcetorFrame.Position = UDim2.new(-1.06766915, 0, 0.0459459722, 0)
+SkyWarsScriptSelcetorFrame.Size = UDim2.new(0, 337, 0, 275)
+SkyWarsScriptSelcetorFrame.Visible = false
 
-UICorner_11.Parent = GuiAndHubsFrame
+UICorner_11.Parent = SkyWarsScriptSelcetorFrame
 
-EnergizeGui.Name = "EnergizeGui"
-EnergizeGui.Parent = GuiAndHubsFrame
-EnergizeGui.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
-EnergizeGui.Position = UDim2.new(0.102756895, 0, 0.118918918, 0)
-EnergizeGui.Size = UDim2.new(0, 131, 0, 39)
-EnergizeGui.Font = Enum.Font.SourceSans
-EnergizeGui.Text = "Energize Gui"
-EnergizeGui.TextColor3 = Color3.fromRGB(255, 255, 255)
-EnergizeGui.TextSize = 28.000
-
-UICorner_12.Parent = EnergizeGui
-
-C00lkiddGui.Name = "C00lkiddGui"
-C00lkiddGui.Parent = GuiAndHubsFrame
-C00lkiddGui.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
-C00lkiddGui.Position = UDim2.new(0.588972449, 0, 0.118918918, 0)
-C00lkiddGui.Size = UDim2.new(0, 131, 0, 39)
-C00lkiddGui.Font = Enum.Font.SourceSans
-C00lkiddGui.Text = "C00l Kid Gui"
-C00lkiddGui.TextColor3 = Color3.fromRGB(255, 255, 255)
-C00lkiddGui.TextSize = 28.000
-
-UICorner_13.Parent = C00lkiddGui
-
-OPFinality.Name = "OPFinality"
-OPFinality.Parent = GuiAndHubsFrame
-OPFinality.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
-OPFinality.Position = UDim2.new(0.102756917, 0, 0.313513517, 0)
-OPFinality.Size = UDim2.new(0, 131, 0, 39)
-OPFinality.Font = Enum.Font.SourceSans
-OPFinality.Text = "Op Finality "
-OPFinality.TextColor3 = Color3.fromRGB(255, 255, 255)
-OPFinality.TextSize = 28.000
-
-UICorner_14.Parent = OPFinality
-
-CobraKaiGui.Name = "CobraKaiGui"
-CobraKaiGui.Parent = GuiAndHubsFrame
-CobraKaiGui.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
-CobraKaiGui.Position = UDim2.new(0.588972449, 0, 0.313513517, 0)
-CobraKaiGui.Size = UDim2.new(0, 131, 0, 39)
-CobraKaiGui.Font = Enum.Font.SourceSans
-CobraKaiGui.Text = "Cobra Kai Gui"
-CobraKaiGui.TextColor3 = Color3.fromRGB(255, 255, 255)
-CobraKaiGui.TextSize = 28.000
-
-UICorner_15.Parent = CobraKaiGui
-
-SynapseXGui.Name = "SynapseXGui"
-SynapseXGui.Parent = GuiAndHubsFrame
-SynapseXGui.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
-SynapseXGui.Position = UDim2.new(0.102756917, 0, 0.510810792, 0)
-SynapseXGui.Size = UDim2.new(0, 131, 0, 39)
-SynapseXGui.Font = Enum.Font.SourceSans
-SynapseXGui.Text = "Synapse X Gui"
-SynapseXGui.TextColor3 = Color3.fromRGB(255, 255, 255)
-SynapseXGui.TextSize = 28.000
-
-UICorner_16.Parent = SynapseXGui
-
-infiniteYield.Name = "infiniteYield"
-infiniteYield.Parent = GuiAndHubsFrame
-infiniteYield.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
-infiniteYield.Position = UDim2.new(0.588972449, 0, 0.510810792, 0)
-infiniteYield.Size = UDim2.new(0, 131, 0, 39)
-infiniteYield.Font = Enum.Font.SourceSans
-infiniteYield.Text = "İnfinite Yield"
-infiniteYield.TextColor3 = Color3.fromRGB(255, 255, 255)
-infiniteYield.TextSize = 28.000
-
-UICorner_17.Parent = infiniteYield
-
-TextLabel_7.Parent = GuiAndHubsFrame
-TextLabel_7.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
-TextLabel_7.Position = UDim2.new(0.172932327, 0, 0.71891892, 0)
-TextLabel_7.Size = UDim2.new(0, 265, 0, 104)
+TextLabel_7.Parent = SkyWarsScriptSelcetorFrame
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(37, 37, 37)
+TextLabel_7.Size = UDim2.new(0, 337, 0, 50)
 TextLabel_7.Font = Enum.Font.SourceSans
-TextLabel_7.Text = "other hubs coming soon."
+TextLabel_7.Text = "Skywars Script Selector"
 TextLabel_7.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_7.TextSize = 27.000
+TextLabel_7.TextSize = 32.000
 
-UICorner_18.Parent = TextLabel_7
+UICorner_12.Parent = TextLabel_7
 
-CreditsFrame.Name = "CreditsFrame"
-CreditsFrame.Parent = RealFrame
-CreditsFrame.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
-CreditsFrame.Position = UDim2.new(0.292421222, 0, 0.133605093, 0)
-CreditsFrame.Size = UDim2.new(0, 399, 0, 370)
-CreditsFrame.Visible = false
+SkyWarsScript1.Name = "SkyWarsScript1"
+SkyWarsScript1.Parent = SkyWarsScriptSelcetorFrame
+SkyWarsScript1.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+SkyWarsScript1.Position = UDim2.new(0.094955489, 0, 0.301818192, 0)
+SkyWarsScript1.Size = UDim2.new(0, 95, 0, 50)
+SkyWarsScript1.Font = Enum.Font.SourceSans
+SkyWarsScript1.Text = "Script 1"
+SkyWarsScript1.TextColor3 = Color3.fromRGB(255, 255, 255)
+SkyWarsScript1.TextSize = 24.000
 
-UICorner_19.Parent = CreditsFrame
+UICorner_13.Parent = SkyWarsScript1
 
-TextLabel_8.Parent = CreditsFrame
+SkyWarsScript2.Name = "SkyWarsScript2"
+SkyWarsScript2.Parent = SkyWarsScriptSelcetorFrame
+SkyWarsScript2.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+SkyWarsScript2.Position = UDim2.new(0.560830832, 0, 0.301818192, 0)
+SkyWarsScript2.Size = UDim2.new(0, 95, 0, 50)
+SkyWarsScript2.Font = Enum.Font.SourceSans
+SkyWarsScript2.Text = "Script 2"
+SkyWarsScript2.TextColor3 = Color3.fromRGB(255, 255, 255)
+SkyWarsScript2.TextSize = 24.000
+
+UICorner_14.Parent = SkyWarsScript2
+
+SkyWarsScript3.Name = "SkyWarsScript3"
+SkyWarsScript3.Parent = SkyWarsScriptSelcetorFrame
+SkyWarsScript3.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+SkyWarsScript3.Position = UDim2.new(0.359050423, 0, 0.614545465, 0)
+SkyWarsScript3.Size = UDim2.new(0, 95, 0, 50)
+SkyWarsScript3.Font = Enum.Font.SourceSans
+SkyWarsScript3.Text = "Script 3"
+SkyWarsScript3.TextColor3 = Color3.fromRGB(255, 255, 255)
+SkyWarsScript3.TextSize = 24.000
+
+UICorner_15.Parent = SkyWarsScript3
+
+SkyWarsCloseButton.Name = "SkyWarsCloseButton"
+SkyWarsCloseButton.Parent = SkyWarsScriptSelcetorFrame
+SkyWarsCloseButton.BackgroundColor3 = Color3.fromRGB(64, 64, 64)
+SkyWarsCloseButton.Position = UDim2.new(0.910979211, 0, -0.0618181825, 0)
+SkyWarsCloseButton.Size = UDim2.new(0, 51, 0, 50)
+SkyWarsCloseButton.Font = Enum.Font.SourceSans
+SkyWarsCloseButton.Text = "X"
+SkyWarsCloseButton.TextColor3 = Color3.fromRGB(255, 0, 0)
+SkyWarsCloseButton.TextSize = 47.000
+
+UICorner_16.Parent = SkyWarsCloseButton
+
+MM2ScriptSelectorFrame.Name = "MM2ScriptSelectorFrame"
+MM2ScriptSelectorFrame.Parent = GamesFrame
+MM2ScriptSelectorFrame.Active = true
+MM2ScriptSelectorFrame.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+MM2ScriptSelectorFrame.Position = UDim2.new(-0.964912355, 0, -0.0162161961, 0)
+MM2ScriptSelectorFrame.Size = UDim2.new(0, 337, 0, 275)
+MM2ScriptSelectorFrame.Visible = false
+
+UICorner_17.Parent = MM2ScriptSelectorFrame
+
+MM2Script1.Name = "MM2Script1"
+MM2Script1.Parent = MM2ScriptSelectorFrame
+MM2Script1.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+MM2Script1.Position = UDim2.new(0.094955489, 0, 0.301818192, 0)
+MM2Script1.Size = UDim2.new(0, 95, 0, 50)
+MM2Script1.Font = Enum.Font.SourceSans
+MM2Script1.Text = "Script 1"
+MM2Script1.TextColor3 = Color3.fromRGB(255, 255, 255)
+MM2Script1.TextSize = 24.000
+
+UICorner_18.Parent = MM2Script1
+
+MM2Script2.Name = "MM2Script2"
+MM2Script2.Parent = MM2ScriptSelectorFrame
+MM2Script2.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+MM2Script2.Position = UDim2.new(0.560830832, 0, 0.301818192, 0)
+MM2Script2.Size = UDim2.new(0, 95, 0, 50)
+MM2Script2.Font = Enum.Font.SourceSans
+MM2Script2.Text = "Script 2"
+MM2Script2.TextColor3 = Color3.fromRGB(255, 255, 255)
+MM2Script2.TextSize = 24.000
+
+UICorner_19.Parent = MM2Script2
+
+MM2Script3.Name = "MM2Script3"
+MM2Script3.Parent = MM2ScriptSelectorFrame
+MM2Script3.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+MM2Script3.Position = UDim2.new(0.359050423, 0, 0.614545465, 0)
+MM2Script3.Size = UDim2.new(0, 95, 0, 50)
+MM2Script3.Font = Enum.Font.SourceSans
+MM2Script3.Text = "Script 3"
+MM2Script3.TextColor3 = Color3.fromRGB(255, 255, 255)
+MM2Script3.TextSize = 24.000
+
+UICorner_20.Parent = MM2Script3
+
+TextLabel_8.Parent = MM2ScriptSelectorFrame
 TextLabel_8.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
-TextLabel_8.Position = UDim2.new(0.248120308, 0, 0.0702702701, 0)
-TextLabel_8.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_8.Size = UDim2.new(0, 337, 0, 50)
 TextLabel_8.Font = Enum.Font.SourceSans
-TextLabel_8.Text = "Made By Sedatrek"
+TextLabel_8.Text = "MM2 Script Selector"
 TextLabel_8.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_8.TextSize = 34.000
+TextLabel_8.TextSize = 32.000
 
-UICorner_20.Parent = TextLabel_8
+UICorner_21.Parent = TextLabel_8
 
-TextLabel_9.Parent = CreditsFrame
-TextLabel_9.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
-TextLabel_9.Position = UDim2.new(0.0676691756, 0, 0.443243235, 0)
-TextLabel_9.Size = UDim2.new(0, 200, 0, 50)
-TextLabel_9.Font = Enum.Font.SourceSans
-TextLabel_9.Text = "Discord: SSXD#9515"
-TextLabel_9.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_9.TextSize = 34.000
+MM2CloseButton.Name = "MM2CloseButton"
+MM2CloseButton.Parent = MM2ScriptSelectorFrame
+MM2CloseButton.BackgroundColor3 = Color3.fromRGB(64, 64, 64)
+MM2CloseButton.Position = UDim2.new(0.890207827, 0, -0.0690909103, 0)
+MM2CloseButton.Size = UDim2.new(0, 54, 0, 50)
+MM2CloseButton.Font = Enum.Font.SourceSans
+MM2CloseButton.Text = "X"
+MM2CloseButton.TextColor3 = Color3.fromRGB(255, 0, 0)
+MM2CloseButton.TextSize = 53.000
 
-UICorner_21.Parent = TextLabel_9
-
-OpenButton.Name = "OpenButton"
-OpenButton.Parent = ScreenGui
-OpenButton.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
-OpenButton.Position = UDim2.new(0, 0, 0.915421247, 0)
-OpenButton.Size = UDim2.new(0, 124, 0, 50)
-OpenButton.Font = Enum.Font.SourceSans
-OpenButton.Text = "OPEN"
-OpenButton.TextColor3 = Color3.fromRGB(255, 255, 255)
-OpenButton.TextSize = 36.000
-
-UICorner_22.Parent = OpenButton
+UICorner_22.Parent = MM2CloseButton
 
 HorrificHousingScriptSelectorFrame.Name = "HorrificHousingScriptSelectorFrame"
-HorrificHousingScriptSelectorFrame.Parent = ScreenGui
+HorrificHousingScriptSelectorFrame.Parent = GamesFrame
 HorrificHousingScriptSelectorFrame.Active = true
 HorrificHousingScriptSelectorFrame.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
 HorrificHousingScriptSelectorFrame.Position = UDim2.new(-1.00501251, 0, 2.23517418e-08, 0)
@@ -426,15 +427,15 @@ HorrificHousingScriptSelectorFrame.Visible = false
 
 UICorner_23.Parent = HorrificHousingScriptSelectorFrame
 
-TextLabel_10.Parent = HorrificHousingScriptSelectorFrame
-TextLabel_10.BackgroundColor3 = Color3.fromRGB(37, 37, 37)
-TextLabel_10.Size = UDim2.new(0, 337, 0, 50)
-TextLabel_10.Font = Enum.Font.SourceSans
-TextLabel_10.Text = "Horrific Housing Script Selector"
-TextLabel_10.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_10.TextSize = 30.000
+TextLabel_9.Parent = HorrificHousingScriptSelectorFrame
+TextLabel_9.BackgroundColor3 = Color3.fromRGB(37, 37, 37)
+TextLabel_9.Size = UDim2.new(0, 337, 0, 50)
+TextLabel_9.Font = Enum.Font.SourceSans
+TextLabel_9.Text = "Horrific Housing Script Selector"
+TextLabel_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.TextSize = 30.000
 
-UICorner_24.Parent = TextLabel_10
+UICorner_24.Parent = TextLabel_9
 
 HorrificScript1.Name = "HorrificScript1"
 HorrificScript1.Parent = HorrificHousingScriptSelectorFrame
@@ -484,143 +485,141 @@ HorrificHousingCloseButton.TextSize = 74.000
 
 UICorner_28.Parent = HorrificHousingCloseButton
 
-MM2ScriptSelectorFrame.Name = "MM2ScriptSelectorFrame"
-MM2ScriptSelectorFrame.Parent = ScreenGui
-MM2ScriptSelectorFrame.Active = true
-MM2ScriptSelectorFrame.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
-MM2ScriptSelectorFrame.Position = UDim2.new(-0.964912355, 0, -0.0162161961, 0)
-MM2ScriptSelectorFrame.Size = UDim2.new(0, 337, 0, 275)
-MM2ScriptSelectorFrame.Visible = false
+GuiAndHubsFrame.Name = "GuiAndHubsFrame"
+GuiAndHubsFrame.Parent = RealFrame
+GuiAndHubsFrame.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+GuiAndHubsFrame.Position = UDim2.new(0.292421222, 0, 0.133605093, 0)
+GuiAndHubsFrame.Size = UDim2.new(0, 399, 0, 370)
+GuiAndHubsFrame.Visible = false
 
-UICorner_29.Parent = MM2ScriptSelectorFrame
+UICorner_29.Parent = GuiAndHubsFrame
 
-MM2Script1.Name = "MM2Script1"
-MM2Script1.Parent = MM2ScriptSelectorFrame
-MM2Script1.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
-MM2Script1.Position = UDim2.new(0.094955489, 0, 0.301818192, 0)
-MM2Script1.Size = UDim2.new(0, 95, 0, 50)
-MM2Script1.Font = Enum.Font.SourceSans
-MM2Script1.Text = "Script 1"
-MM2Script1.TextColor3 = Color3.fromRGB(255, 255, 255)
-MM2Script1.TextSize = 24.000
+EnergizeGui.Name = "EnergizeGui"
+EnergizeGui.Parent = GuiAndHubsFrame
+EnergizeGui.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+EnergizeGui.Position = UDim2.new(0.102756895, 0, 0.118918918, 0)
+EnergizeGui.Size = UDim2.new(0, 131, 0, 39)
+EnergizeGui.Font = Enum.Font.SourceSans
+EnergizeGui.Text = "Energize Gui"
+EnergizeGui.TextColor3 = Color3.fromRGB(255, 255, 255)
+EnergizeGui.TextSize = 28.000
 
-UICorner_30.Parent = MM2Script1
+UICorner_30.Parent = EnergizeGui
 
-MM2Script2.Name = "MM2Script2"
-MM2Script2.Parent = MM2ScriptSelectorFrame
-MM2Script2.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
-MM2Script2.Position = UDim2.new(0.560830832, 0, 0.301818192, 0)
-MM2Script2.Size = UDim2.new(0, 95, 0, 50)
-MM2Script2.Font = Enum.Font.SourceSans
-MM2Script2.Text = "Script 2"
-MM2Script2.TextColor3 = Color3.fromRGB(255, 255, 255)
-MM2Script2.TextSize = 24.000
+C00lkiddGui.Name = "C00lkiddGui"
+C00lkiddGui.Parent = GuiAndHubsFrame
+C00lkiddGui.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+C00lkiddGui.Position = UDim2.new(0.588972449, 0, 0.118918918, 0)
+C00lkiddGui.Size = UDim2.new(0, 131, 0, 39)
+C00lkiddGui.Font = Enum.Font.SourceSans
+C00lkiddGui.Text = "C00l Kid Gui"
+C00lkiddGui.TextColor3 = Color3.fromRGB(255, 255, 255)
+C00lkiddGui.TextSize = 28.000
 
-UICorner_31.Parent = MM2Script2
+UICorner_31.Parent = C00lkiddGui
 
-MM2Script3.Name = "MM2Script3"
-MM2Script3.Parent = MM2ScriptSelectorFrame
-MM2Script3.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
-MM2Script3.Position = UDim2.new(0.359050423, 0, 0.614545465, 0)
-MM2Script3.Size = UDim2.new(0, 95, 0, 50)
-MM2Script3.Font = Enum.Font.SourceSans
-MM2Script3.Text = "Script 3"
-MM2Script3.TextColor3 = Color3.fromRGB(255, 255, 255)
-MM2Script3.TextSize = 24.000
+OPFinality.Name = "OPFinality"
+OPFinality.Parent = GuiAndHubsFrame
+OPFinality.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+OPFinality.Position = UDim2.new(0.102756917, 0, 0.313513517, 0)
+OPFinality.Size = UDim2.new(0, 131, 0, 39)
+OPFinality.Font = Enum.Font.SourceSans
+OPFinality.Text = "Op Finality "
+OPFinality.TextColor3 = Color3.fromRGB(255, 255, 255)
+OPFinality.TextSize = 28.000
 
-UICorner_32.Parent = MM2Script3
+UICorner_32.Parent = OPFinality
 
-TextLabel_11.Parent = MM2ScriptSelectorFrame
+CobraKaiGui.Name = "CobraKaiGui"
+CobraKaiGui.Parent = GuiAndHubsFrame
+CobraKaiGui.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+CobraKaiGui.Position = UDim2.new(0.588972449, 0, 0.313513517, 0)
+CobraKaiGui.Size = UDim2.new(0, 131, 0, 39)
+CobraKaiGui.Font = Enum.Font.SourceSans
+CobraKaiGui.Text = "Cobra Kai Gui"
+CobraKaiGui.TextColor3 = Color3.fromRGB(255, 255, 255)
+CobraKaiGui.TextSize = 28.000
+
+UICorner_33.Parent = CobraKaiGui
+
+SynapseXGui.Name = "SynapseXGui"
+SynapseXGui.Parent = GuiAndHubsFrame
+SynapseXGui.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+SynapseXGui.Position = UDim2.new(0.102756917, 0, 0.510810792, 0)
+SynapseXGui.Size = UDim2.new(0, 131, 0, 39)
+SynapseXGui.Font = Enum.Font.SourceSans
+SynapseXGui.Text = "Synapse X Gui"
+SynapseXGui.TextColor3 = Color3.fromRGB(255, 255, 255)
+SynapseXGui.TextSize = 28.000
+
+UICorner_34.Parent = SynapseXGui
+
+infiniteYield.Name = "infiniteYield"
+infiniteYield.Parent = GuiAndHubsFrame
+infiniteYield.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+infiniteYield.Position = UDim2.new(0.588972449, 0, 0.510810792, 0)
+infiniteYield.Size = UDim2.new(0, 131, 0, 39)
+infiniteYield.Font = Enum.Font.SourceSans
+infiniteYield.Text = "İnfinite Yield"
+infiniteYield.TextColor3 = Color3.fromRGB(255, 255, 255)
+infiniteYield.TextSize = 28.000
+
+UICorner_35.Parent = infiniteYield
+
+TextLabel_10.Parent = GuiAndHubsFrame
+TextLabel_10.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+TextLabel_10.Position = UDim2.new(0.172932327, 0, 0.71891892, 0)
+TextLabel_10.Size = UDim2.new(0, 265, 0, 104)
+TextLabel_10.Font = Enum.Font.SourceSans
+TextLabel_10.Text = "other hubs coming soon."
+TextLabel_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.TextSize = 27.000
+
+UICorner_36.Parent = TextLabel_10
+
+CreditsFrame.Name = "CreditsFrame"
+CreditsFrame.Parent = RealFrame
+CreditsFrame.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+CreditsFrame.Position = UDim2.new(0.292421222, 0, 0.133605093, 0)
+CreditsFrame.Size = UDim2.new(0, 399, 0, 370)
+CreditsFrame.Visible = false
+
+UICorner_37.Parent = CreditsFrame
+
+TextLabel_11.Parent = CreditsFrame
 TextLabel_11.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
-TextLabel_11.Size = UDim2.new(0, 337, 0, 50)
+TextLabel_11.Position = UDim2.new(0.248120308, 0, 0.0702702701, 0)
+TextLabel_11.Size = UDim2.new(0, 200, 0, 50)
 TextLabel_11.Font = Enum.Font.SourceSans
-TextLabel_11.Text = "MM2 Script Selector"
+TextLabel_11.Text = "Made By Sedatrek"
 TextLabel_11.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_11.TextSize = 32.000
+TextLabel_11.TextSize = 34.000
 
-UICorner_33.Parent = TextLabel_11
+UICorner_38.Parent = TextLabel_11
 
-MM2CloseButton.Name = "MM2CloseButton"
-MM2CloseButton.Parent = MM2ScriptSelectorFrame
-MM2CloseButton.BackgroundColor3 = Color3.fromRGB(64, 64, 64)
-MM2CloseButton.Position = UDim2.new(0.890207827, 0, -0.0690909103, 0)
-MM2CloseButton.Size = UDim2.new(0, 54, 0, 50)
-MM2CloseButton.Font = Enum.Font.SourceSans
-MM2CloseButton.Text = "X"
-MM2CloseButton.TextColor3 = Color3.fromRGB(255, 0, 0)
-MM2CloseButton.TextSize = 53.000
-
-UICorner_34.Parent = MM2CloseButton
-
-SkyWarsScriptSelcetorFrame.Name = "SkyWarsScriptSelcetorFrame"
-SkyWarsScriptSelcetorFrame.Parent = ScreenGui
-SkyWarsScriptSelcetorFrame.Active = true
-SkyWarsScriptSelcetorFrame.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
-SkyWarsScriptSelcetorFrame.Position = UDim2.new(-1.06766915, 0, 0.0459459722, 0)
-SkyWarsScriptSelcetorFrame.Size = UDim2.new(0, 337, 0, 275)
-SkyWarsScriptSelcetorFrame.Visible = false
-
-UICorner_35.Parent = SkyWarsScriptSelcetorFrame
-
-TextLabel_12.Parent = SkyWarsScriptSelcetorFrame
-TextLabel_12.BackgroundColor3 = Color3.fromRGB(37, 37, 37)
-TextLabel_12.Size = UDim2.new(0, 337, 0, 50)
+TextLabel_12.Parent = CreditsFrame
+TextLabel_12.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+TextLabel_12.Position = UDim2.new(0.0676691756, 0, 0.443243235, 0)
+TextLabel_12.Size = UDim2.new(0, 200, 0, 50)
 TextLabel_12.Font = Enum.Font.SourceSans
-TextLabel_12.Text = "Skywars Script Selector"
+TextLabel_12.Text = "Discord: SSXD#9515"
 TextLabel_12.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_12.TextSize = 32.000
+TextLabel_12.TextSize = 34.000
 
-UICorner_36.Parent = TextLabel_12
+UICorner_39.Parent = TextLabel_12
 
-SkyWarsScript1.Name = "SkyWarsScript1"
-SkyWarsScript1.Parent = SkyWarsScriptSelcetorFrame
-SkyWarsScript1.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
-SkyWarsScript1.Position = UDim2.new(0.094955489, 0, 0.301818192, 0)
-SkyWarsScript1.Size = UDim2.new(0, 95, 0, 50)
-SkyWarsScript1.Font = Enum.Font.SourceSans
-SkyWarsScript1.Text = "Script 1"
-SkyWarsScript1.TextColor3 = Color3.fromRGB(255, 255, 255)
-SkyWarsScript1.TextSize = 24.000
+OpenButton.Name = "OpenButton"
+OpenButton.Parent = ScreenGui
+OpenButton.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+OpenButton.Position = UDim2.new(0, 0, 0.915421247, 0)
+OpenButton.Size = UDim2.new(0, 124, 0, 50)
+OpenButton.Font = Enum.Font.SourceSans
+OpenButton.Text = "OPEN"
+OpenButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+OpenButton.TextSize = 36.000
 
-UICorner_37.Parent = SkyWarsScript1
+UICorner_40.Parent = OpenButton
 
-SkyWarsScript2.Name = "SkyWarsScript2"
-SkyWarsScript2.Parent = SkyWarsScriptSelcetorFrame
-SkyWarsScript2.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
-SkyWarsScript2.Position = UDim2.new(0.560830832, 0, 0.301818192, 0)
-SkyWarsScript2.Size = UDim2.new(0, 95, 0, 50)
-SkyWarsScript2.Font = Enum.Font.SourceSans
-SkyWarsScript2.Text = "Script 2"
-SkyWarsScript2.TextColor3 = Color3.fromRGB(255, 255, 255)
-SkyWarsScript2.TextSize = 24.000
-
-UICorner_38.Parent = SkyWarsScript2
-
-SkyWarsScript3.Name = "SkyWarsScript3"
-SkyWarsScript3.Parent = SkyWarsScriptSelcetorFrame
-SkyWarsScript3.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
-SkyWarsScript3.Position = UDim2.new(0.359050423, 0, 0.614545465, 0)
-SkyWarsScript3.Size = UDim2.new(0, 95, 0, 50)
-SkyWarsScript3.Font = Enum.Font.SourceSans
-SkyWarsScript3.Text = "Script 3"
-SkyWarsScript3.TextColor3 = Color3.fromRGB(255, 255, 255)
-SkyWarsScript3.TextSize = 24.000
-
-UICorner_39.Parent = SkyWarsScript3
-
-SkyWarsCloseButton.Name = "SkyWarsCloseButton"
-SkyWarsCloseButton.Parent = SkyWarsScriptSelcetorFrame
-SkyWarsCloseButton.BackgroundColor3 = Color3.fromRGB(64, 64, 64)
-SkyWarsCloseButton.Position = UDim2.new(0.910979211, 0, -0.0618181825, 0)
-SkyWarsCloseButton.Size = UDim2.new(0, 51, 0, 50)
-SkyWarsCloseButton.Font = Enum.Font.SourceSans
-SkyWarsCloseButton.Text = "X"
-SkyWarsCloseButton.TextColor3 = Color3.fromRGB(255, 0, 0)
-SkyWarsCloseButton.TextSize = 47.000
-
-UICorner_40.Parent = SkyWarsCloseButton
-
---scripts
 
 GuiAndHubsButton.MouseButton1Click:Connect(function()
 	GamesFrame.Visible = false
@@ -638,18 +637,6 @@ CreditButton.MouseButton1Click:Connect(function()
 	GamesFrame.Visible = false
 	CreditsFrame.Visible = true
 	GuiAndHubsFrame.Visible = false
-end)
-
-HorrificHousingExecute.MouseButton1Click:Connect(function()
-	HorrificHousingScriptSelectorFrame.Visible = true
-end)
-
-MM2Execute.MouseButton1Click:Connect(function()
-	MM2ScriptSelectorFrame.Visible = true
-end)
-
-SkyWarsExecute.MouseButton1Click:Connect(function()
-	SkyWarsScriptSelcetorFrame.Visible = true
 end)
 
 HorrificHousingCloseButton.MouseButton1Click:Connect(function()
@@ -737,5 +724,19 @@ end)
 HorrificHousingScriptSelectorFrame.Draggable = true
 MM2ScriptSelectorFrame.Draggable = true
 SkyWarsScriptSelcetorFrame.Draggable = true
+
+SkyWarsExecute.MouseButton1Click:Connect(function()
+	SkyWarsScriptSelcetorFrame.Visible = true
+end)
+
+MM2Execute.MouseButton1Click:Connect(function()
+	MM2ScriptSelectorFrame.Visible = true
+end)
+
+HorrificHousingExecute.MouseButton1Click:Connect(function()
+	HorrificHousingScriptSelectorFrame.Visible = true
+end)
+
+RealFrame.Visible = false
 
 --ends
