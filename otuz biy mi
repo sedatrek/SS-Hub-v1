@@ -1,7 +1,7 @@
--- Gui to Lua
--- Version: 3.2
+--by sedatrek
+--discord: SSXD#9515
 
--- Instances:
+--Local A
 
 local ScreenGui = Instance.new("ScreenGui")
 local RealFrame = Instance.new("Frame")
@@ -105,7 +105,6 @@ RealFrame.Active = true
 RealFrame.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
 RealFrame.Position = UDim2.new(0.351447105, 0, 0.132472843, 0)
 RealFrame.Size = UDim2.new(0, 564, 0, 432)
-RealFrame.Visible = false
 RealFrame.Draggable = true
 
 UICorner.Parent = RealFrame
@@ -201,7 +200,7 @@ UICorner_9.Parent = CloseHubButton
 GamesFrame.Name = "GamesFrame"
 GamesFrame.Parent = RealFrame
 GamesFrame.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
-GamesFrame.Position = UDim2.new(0.473272294, 0, 0.237771749, 0)
+GamesFrame.Position = UDim2.new(0.290648162, 0, 0.133605093, 0)
 GamesFrame.Size = UDim2.new(0, 399, 0, 370)
 GamesFrame.Visible = false
 
@@ -489,7 +488,7 @@ UICorner_28.Parent = MM2CloseButton
 GuiAndHubsFrame.Name = "GuiAndHubsFrame"
 GuiAndHubsFrame.Parent = RealFrame
 GuiAndHubsFrame.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
-GuiAndHubsFrame.Position = UDim2.new(0.473272294, 0, 0.237771749, 0)
+GuiAndHubsFrame.Position = UDim2.new(0.292421222, 0, 0.133605093, 0)
 GuiAndHubsFrame.Size = UDim2.new(0, 399, 0, 370)
 GuiAndHubsFrame.Visible = false
 
@@ -581,7 +580,7 @@ UICorner_36.Parent = TextLabel_10
 CreditsFrame.Name = "CreditsFrame"
 CreditsFrame.Parent = RealFrame
 CreditsFrame.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
-CreditsFrame.Position = UDim2.new(0.473272294, 0, 0.237771749, 0)
+CreditsFrame.Position = UDim2.new(0.292421222, 0, 0.133605093, 0)
 CreditsFrame.Size = UDim2.new(0, 399, 0, 370)
 CreditsFrame.Visible = false
 
