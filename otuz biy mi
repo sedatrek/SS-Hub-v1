@@ -734,4 +734,8 @@ CloseHubButton.MouseButton1Click:Connect(function()
 	OpenButton.Visible = true
 end)
 
+HorrificHousingScriptSelectorFrame.Draggable = true
+MM2ScriptSelectorFrame.Draggable = true
+SkyWarsScriptSelcetorFrame.Draggable = true
+
 --ends
